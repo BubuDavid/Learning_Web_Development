@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+
+<strong>label</strong> is a tag that you use with <strong>form</strong> and give aditional information to the user.
+
+<h1>My first form</h1>
+
+<!-- action: where form send data to -->
+<!-- method: what HTTP method (get/post) -->
+
+<form>
+
+	<label>
+		
+		Username: <input type="text" placeholder="Username">
+
+	</label>
+
+	<label>
+		
+		Pasword: <input type="password" placeholder="Password">
+
+	</label>
+
+	<input type="submit">
+
+</form>
+
+Or you could do this: 
+<br>
+The tags <strong>for</strong> and <strong>id</strong> conect a label with an input to do a correct form.
+
+<form>
+	
+	<label for="Username">Username</label>
+	<input id="username" type="text">
+
+	<label for="Password">Pasword</label>
+	<input id="Pasword" type="text">
+
+	<button>Login</button>
+
+</form>
+
+
+</body>
+</html>
