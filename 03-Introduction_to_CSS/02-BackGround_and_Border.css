@@ -1,0 +1,27 @@
+h1 {
+/*
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+*/
+
+	border: 3px dashed rgb(100, 100, 80);
+
+}
+
+h4 {
+
+	background: rgb(100, 100, 80);
+
+}
+
+body {
+
+	/*You could use "url" and next propieties*/
+
+	/*background: url(https://electrofork.files.wordpress.com/2017/11/woodgrain2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+
+	background: rgba(238, 238, 238, 1)
+}

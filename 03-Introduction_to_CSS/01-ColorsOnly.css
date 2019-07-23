@@ -1,0 +1,21 @@
+h1 {
+
+	/*Hexagesimal*/
+	/*color: #E37224;*/
+
+	/*RGBA, it's just like RGB but with transparency */
+	color: rgba(227, 114, 36, 0.8);
+
+}
+
+h4 {
+
+	color: rgba(234, 142, 79);
+
+}
+
+li {
+
+	color: rgba(1, 139, 149, 0.6);
+
+}

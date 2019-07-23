@@ -1,0 +1,21 @@
+li {
+
+	border: 2px solid red;
+
+}
+
+/*To select the object with an id: */
+/*Only one per page!*/
+#special {
+
+	background: #E27319;
+
+}
+
+
+/*To select the object with a class: */
+.completed {
+
+	text-decoration: line-through;
+
+}

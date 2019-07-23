@@ -1,0 +1,65 @@
+/*Ther's more than 3 ways to select something*/
+/*Visit the next paper: 
+	https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+*/
+
+/*Element*/
+li {
+
+	/*Style*/
+
+}
+
+/*Class*/
+.Bubu {
+
+	/*Style*/
+
+}
+
+/*id*/
+#Bubu {
+
+	/*style*/
+
+}
+
+/*Star*/
+/*It affects every element in the page*/
+* {
+
+	border: 1px solid lightgrey;
+
+}
+
+/*Descendant Selector*/
+/*It affects all the tags in another tags*/
+li a {
+
+	color: red;
+
+}
+
+/*Adjacent Selector*/
+/*It affects all the elements after the other elements*/
+h4 + ul {
+
+	border: 4px solid red;
+
+}
+
+/*Attribute Selector*/
+/*It affects all with an specific attribute*/
+a[href="http://www.google.com"] {
+
+	background: lightblue;
+
+}
+
+/*nth of type*/
+/*Select every elements in a specific place number*/
+li:nth-of-type(even) {
+
+	background: purple;
+
+}
