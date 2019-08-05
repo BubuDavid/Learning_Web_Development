@@ -1,0 +1,20 @@
+p {
+
+	/*Color*/
+	color: red;
+
+	/*Content - Width and Height*/
+	width: 20%;
+
+	/*Border*/
+	border: 2px solid blue;
+
+	/*Padding*/
+	/*Padding left*/
+	padding-left: 50px;
+	padding-right: 10px;
+
+	/*Margin*/
+	margin: 30px auto 30px auto;
+
+}
